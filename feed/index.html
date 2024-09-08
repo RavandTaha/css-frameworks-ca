@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feed Page</title>
-    <link rel="stylesheet" href="../css/main.css"> <!-- Link to your compiled CSS -->
+    <link rel="stylesheet" href="../css/main.css"> <!-- Link to compiled CSS -->
 </head>
 <body>
+        <!-- Header Section -->
+        <header class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/logo.png" alt="MusclLink Logo" width="50" height="50" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/feed/index.html">Feed</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/profile/index.html">Profile</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </header>
+
     <div class="container mt-5">
         <h1 class="mb-4">Feed</h1>
         <!-- Search Bar -->
@@ -26,23 +55,50 @@
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Post Thumbnail">
+                    <img src="/assets/g7.jpg" class="card-img-top" alt="Post Thumbnail">
                     <div class="card-body">
-                        <h5 class="card-title">Post Title 1</h5>
-                        <p class="card-text">Post content...</p>
+                        <h5 class="card-title">My Back Workout</h5>
+                        <p class="card-text">My back workout emphasizes strength and muscle development. It includes key movements such as deadlifts, pull-ups, rows, and lat pulldowns.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Post Thumbnail">
+                    <img src="/assets/g12.jpg" class="card-img-top" alt="Post Thumbnail">
                     <div class="card-body">
-                        <h5 class="card-title">Post Title 2</h5>
-                        <p class="card-text">Post content...</p>
+                        <h5 class="card-title">My Abs Workout</h5>
+                        <p class="card-text">Emphasizes core stability and definition with planks, crunches, leg raises, and Russian twists.</p>
                     </div>
                 </div>
             </div>
-            <!-- Add more posts as needed -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/PF.jpg" class="card-img-top" alt="Post Thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title">My Triceps Workout</h5>
+                        <p class="card-text">Shapes and strengthens the triceps with dips, tricep pushdowns, and overhead extensions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/g11.jpg" class="card-img-top" alt="Post Thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title">My Biceps Workout</h5>
+                        <p class="card-text">Targets bicep size and strength through curls, hammer curls, and concentration curls.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/g6.jpg" class="card-img-top" alt="Post Thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title">My Chest Workout</h5>
+                        <p class="card-text">Builds upper body power with bench presses, push-ups, and chest flyes for chest development.</p>
+                    </div>
+                </div>
+            </div>
+        
         </div>
         <!-- Create New Post Form -->
         <div class="row">
