@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed Page</title>
+    <link rel="stylesheet" href="../css/main.css"> <!-- Link to your compiled CSS -->
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Feed</h1>
+        <!-- Search Bar -->
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <input type="text" class="form-control" placeholder="Search posts...">
+            </div>
+            <div class="col-md-4">
+                <select class="form-select">
+                    <option selected>Sort by...</option>
+                    <option value="1">Date</option>
+                    <option value="2">Popularity</option>
+                </select>
+            </div>
+        </div>
+        <!-- List of Posts -->
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Post Thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title">Post Title 1</h5>
+                        <p class="card-text">Post content...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Post Thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title">Post Title 2</h5>
+                        <p class="card-text">Post content...</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more posts as needed -->
+        </div>
+        <!-- Create New Post Form -->
+        <div class="row">
+            <div class="col-md-8">
+                <form>
+                    <div class="mb-3">
+                        <label for="postTitle" class="form-label">Post Title</label>
+                        <input type="text" class="form-control" id="postTitle" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="postContent" class="form-label">Post Content</label>
+                        <textarea class="form-control" id="postContent" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,26 +1,26 @@
 {
-  "name": "css-frameworks-ca",
-  "version": "0.0.1",
-  "description": "A starting point for the CSS Frameworks CA project",
+  "name": "bootstrap-v5",
+  "version": "1.0.0",
+  "description": "bootstrap with sass",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"We will learn more about testing in the Workflow course\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NoroffFEU/css-frameworks-ca.git"
-  },
+  "sass": "sass --watch scss:css",
+  "start": "live-server --open=public"
+ },
   "keywords": [
-    "CSS",
-    "CSS",
-    "Frameworks",
     "Bootstrap",
-    "SCSS",
-    "SASS"
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
   ],
-  "author": "Oliver Dipple <oliver.dipple@noroff.no>",
+  "author": "Ravand",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NoroffFEU/css-frameworks-ca/issues"
+  "devDependencies": {
+    "sass": "^1.78.0"
   },
-  "homepage": "https://github.com/NoroffFEU/css-frameworks-ca#readme"
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "live-server": "^1.2.2"
+  }
 }

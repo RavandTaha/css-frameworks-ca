@@ -1,0 +1,35 @@
+// Import Bootstrap's SCSS
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Custom Variables (you can override Bootstrap variables here)
+$primary: #007bff; // Example: Change primary color
+
+// Custom Styles
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $primary;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.card {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+}
+
+.form-control:focus {
+    border-color: $primary;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
